@@ -1,0 +1,12 @@
+{
+  "domain": "climate_push",
+  "name": "Climate Push (Webhook)",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/sami-djouhri/ha-climate-push",
+  "iot_class": "cloud_push",
+  "integration_type": "service",
+  "issue_tracker": "https://github.com/sami-djouhri/ha-climate-push/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
