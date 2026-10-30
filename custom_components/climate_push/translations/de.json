@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Climate Push (Webhook)",
+        "description": "Fuege den Kopplungscode aus deinem Dashboard ein und waehle die Sensoren, deren Werte gesendet werden sollen. Es verlaesst kein Zugriffstoken dein Zuhause.",
+        "data": {
+          "pairing_code": "Kopplungscode",
+          "temperature_entity": "Temperatur-Sensor",
+          "humidity_entity": "Luftfeuchte-Sensor (optional)",
+          "soil_moisture_entity": "Bodenfeuchte-Sensor (optional)",
+          "interval_minutes": "Sendeintervall (Minuten)"
+        }
+      }
+    },
+    "error": {
+      "invalid_code": "Der Kopplungscode ist ungueltig. Kopiere ihn erneut aus deinem Dashboard.",
+      "no_sensor": "Waehle mindestens einen Temperatur- oder Luftfeuchte-Sensor."
+    },
+    "abort": {
+      "already_configured": "Diese Verbindung ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Climate Push anpassen",
+        "data": {
+          "temperature_entity": "Temperatur-Sensor",
+          "humidity_entity": "Luftfeuchte-Sensor (optional)",
+          "soil_moisture_entity": "Bodenfeuchte-Sensor (optional)",
+          "interval_minutes": "Sendeintervall (Minuten)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Climate Push (Webhook)",
+        "description": "Paste the pairing code from your dashboard and pick the sensors whose values should be sent. No access token ever leaves your home.",
+        "data": {
+          "pairing_code": "Pairing code",
+          "temperature_entity": "Temperature sensor",
+          "humidity_entity": "Humidity sensor (optional)",
+          "soil_moisture_entity": "Soil moisture sensor (optional)",
+          "interval_minutes": "Send interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_code": "The pairing code is invalid. Copy it again from your dashboard.",
+      "no_sensor": "Pick at least one temperature or humidity sensor."
+    },
+    "abort": {
+      "already_configured": "This connection is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Adjust Climate Push",
+        "data": {
+          "temperature_entity": "Temperature sensor",
+          "humidity_entity": "Humidity sensor (optional)",
+          "soil_moisture_entity": "Soil moisture sensor (optional)",
+          "interval_minutes": "Send interval (minutes)"
+        }
+      }
+    }
+  }
+}
